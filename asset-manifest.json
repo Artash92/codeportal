@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codeportal/static/css/main.faf76c7c.css",
+    "main.js": "/codeportal/static/js/main.0cc2d385.js",
+    "static/js/787.aff8e449.chunk.js": "/codeportal/static/js/787.aff8e449.chunk.js",
+    "index.html": "/codeportal/index.html",
+    "main.faf76c7c.css.map": "/codeportal/static/css/main.faf76c7c.css.map",
+    "main.0cc2d385.js.map": "/codeportal/static/js/main.0cc2d385.js.map",
+    "787.aff8e449.chunk.js.map": "/codeportal/static/js/787.aff8e449.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faf76c7c.css",
+    "static/js/main.0cc2d385.js"
+  ]
+}
