@@ -1,0 +1,121 @@
+   .main-editor {
+    margin-top: 75px;
+    
+  }
+
+
+  .code-editor-container {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    margin-top: 40px; /* Изменили margin-top обратно на 40px */
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .code-editor-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebedf0;
+    border-radius: 4px;
+    background-color: hsl(225, 39%, 60%);
+    padding: 10px;
+    margin-top: 10px; /* Добавили margin-top на 10px */
+    border: 1px solid black;
+  }
+  
+  .code-editor-title h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+.code-editor-container {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    margin-top: 0px;
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 10px;
+
+  }
+  
+  .code-input {
+    flex: 1;
+    padding: 20px;
+    background-color: #343a40;
+    color: #f2f2f8;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow-y: auto;
+  }
+  
+  .code-input textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+  }
+  
+  .code-output {
+    flex: 1;
+    padding: 20px;
+    background-color:#ebecf0;
+    color:   #20232a;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: auto;
+  }
+  
+  .code-output p {
+    margin: 0;
+  }
+  
+  .run-button {
+    padding: 10px 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    background-color:  #ebecf0;
+    color: #272822;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+  @media (max-width: 408px) {
+    .main-editor {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .code-editor-container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .code-input,
+    .code-output {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+

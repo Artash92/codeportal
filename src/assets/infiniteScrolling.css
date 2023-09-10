@@ -1,0 +1,45 @@
+/* InfiniteCarousel.css */
+
+.infinite-scroll {
+    margin-top: 25px;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background-color: #343a40;
+    
+  }
+  
+  .carousel-wrapper {
+    display: inline-flex;
+     margin-top: 50px;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 16px;
+    box-shadow: 0px 0px 8px rgba(206, 197, 197, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 90px;
+    color: rgba(226, 227, 235, 1); /* Яркий цвет с полной непрозрачностью */
+  }
+  
+
+ .carousel-item > div {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Добавьте это свойство */
+}
+
+  /* Медиа-запрос для мобильной версии */
+  @media (max-width: 768px) {
+    .carousel-item > div {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
